@@ -1,0 +1,50 @@
+footer{
+    background-color: black;
+    display: flex;
+}
+
+
+.footer-info{
+   margin: auto;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   padding: 0 8rem;
+}
+.social-links li{
+    list-style: none;
+}
+
+.social-links ul li .fa-instagram,
+.social-links ul li .fa-twitter,
+.social-links ul li .fa-facebook,
+.social-links ul li .fa-google,
+.social-links ul li .fa-linkedin{
+    color: rgb(82, 81, 81);
+    margin-left: 0.7rem;
+    padding: 0.4rem;
+    background-color: rgb(253, 252, 252);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.social-links ul li .fa-instagram:hover,
+.social-links ul li .fa-twitter:hover,
+.social-links ul li .fa-facebook:hover,
+.social-links ul li .fa-google:hover,
+.social-links ul li .fa-linkedin:hover{
+    background-color: rgb(245, 115, 137);
+    color: white;
+}
+
+p{
+    color: rgb(250, 249, 249);
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    cursor: pointer;
+}
+
+p:hover{
+    color: rgb(245, 115, 137);
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #F3F0F0;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:  rgb(255, 152, 159);
+   }
+
+.social-icons li .fa-facebook,
+.social-icons li .fa-instagram,
+.social-icons li .fa-twitter{
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0 0.3rem;
+    background-color: rgb(245, 245, 245);
+}
+
+.social-icons li .fa-facebook:hover,
+.social-icons li .fa-instagram:hover,
+.social-icons li .fa-twitter:hover{
+    color: rgb(253, 168, 174);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.active{
+    color: white !important;
+    background-color: rgb(253, 198, 202);
+    border-radius: 1rem;
+}
+
